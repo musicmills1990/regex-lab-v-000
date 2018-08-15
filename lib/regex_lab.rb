@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-"afoot Excellent incredible Absolute unreal Inconceivable octopus".scan(/\w+aeiou/)
+"string".scan(/\w+aeiou/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
