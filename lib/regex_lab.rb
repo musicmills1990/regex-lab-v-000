@@ -1,8 +1,8 @@
 def starts_with_a_vowel?(word)
 vowel_array = word.scan(/\b[AEIOUaeiou][a-z]*\b/)
-if vowel_array.length == 0 
+if vowel_array.length == 0
   false
-else 
+else
   true
 end
 end
