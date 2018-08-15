@@ -20,5 +20,10 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-phone.scan(/[\b\W*\d]{10}/)
+phone_array = phone.scan(/[\b\W*\d]{10}/)
+if phone_array.length == 0
+  false
+else
+  true
+end
 end
