@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
-
+"afoot Excellent incredible Absolute unreal Inconceivable octopus chandoo Crenel crooked Flimsy folksy Dog Hermit
+makeshift Palazzi sixfold Truth".scan(/aeiou/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
